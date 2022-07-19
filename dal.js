@@ -1,6 +1,6 @@
 const MongoClient = require('mongodb').MongoClient;
 const url         = "mongodb+srv://fullstackbankapp.4teva.mongodb.net/?authSource=%24external&authMechanism=MONGODB-X509&retryWrites=true&w=majority";
-let db            = null;
+let db            = MongoClient.connection;
  
 // connect to mongo
 MongoClient.connect(url, {useUnifiedTopology: true}, function(err, client) {
