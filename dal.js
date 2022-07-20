@@ -1,5 +1,5 @@
 const MongoClient = require('mongodb').MongoClient;
-const url         = 'process.env.MONGODB_URI' || "mongodb+srv://fullstackbankapp.4teva.mongodb.net/?authSource=%24external&authMechanism=MONGODB-X509&retryWrites=true&w=majority";
+const url         = "mongodb+srv://gabrielsobarzo:<Rangers>@fullstackbankapp.4teva.mongodb.net/?retryWrites=true&w=majority"
 let db            = null;
  
 // connect to mongo
