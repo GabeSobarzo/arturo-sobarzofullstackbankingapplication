@@ -1,5 +1,6 @@
 const MongoClient = require('mongodb').MongoClient;
 const url         = "mongodb+srv://gabrielsobarzo:<Rangers>@fullstackbankapp.4teva.mongodb.net/?retryWrites=true&w=majority"
+const client      = new MongoClient(url);
 let db            = null;
  
 // connect to mongo
